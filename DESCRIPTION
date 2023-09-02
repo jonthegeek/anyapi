@@ -7,11 +7,12 @@ Authors@R:
 Description: Tools to interactively query hundreds of web 'APIs', with
     documentation.
 License: MIT + file LICENSE
+URL: https://github.com/jonthegeek/anyapi,
+    https://jonthegeek.github.io/anyapi/
+BugReports: https://github.com/jonthegeek/anyapi/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/jonthegeek/anyapi
-BugReports: https://github.com/jonthegeek/anyapi/issues

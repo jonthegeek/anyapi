@@ -16,6 +16,10 @@ knitr::opts_chunk$set(
 # anyapi
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/anyapi)](https://CRAN.R-project.org/package=anyapi)
+[![Codecov test coverage](https://codecov.io/gh/jonthegeek/anyapi/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jonthegeek/anyapi?branch=main)
+[![R-CMD-check](https://github.com/jonthegeek/anyapi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jonthegeek/anyapi/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Tools to interactively query hundreds of web 'APIs', with documentation.

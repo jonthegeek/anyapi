@@ -12,7 +12,7 @@ Tools to interactively query hundreds of web 'APIs', with documentation.
 Useful links:
 \itemize{
   \item \url{https://github.com/jonthegeek/anyapi}
-  \item \url{https://jonthegeek.github.io/anyapi/}
+  \item \url{https://anyapi.api2r.org/}
   \item Report bugs at \url{https://github.com/jonthegeek/anyapi/issues}
 }
 

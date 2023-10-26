@@ -28,7 +28,17 @@ remotes::install_github("jonthegeek/anyapi")
 
 ## Usage
 
-Add usage information and examples here.
+Find an API. Such APIs can be used with {beekeeper} to create an API
+wrapper package.
+
+``` r
+library(anyapi)
+find_api("trello")
+#> # A tibble: 1 × 4
+#>   title  provider   service apid_url                                            
+#>   <chr>  <chr>      <chr>   <chr>                                               
+#> 1 Trello trello.com <NA>    https://api.apis.guru/v2/specs/trello.com/1.0/opena…
+```
 
 ## Code of Conduct
 

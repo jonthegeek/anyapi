@@ -7,11 +7,23 @@ Authors@R:
 Description: Tools to interactively query hundreds of web 'APIs', with
     documentation.
 License: MIT + file LICENSE
-URL: https://github.com/jonthegeek/anyapi,
-    https://jonthegeek.github.io/anyapi/
+URL: https://github.com/jonthegeek/anyapi, https://anyapi.api2r.org/
 BugReports: https://github.com/jonthegeek/anyapi/issues
+Imports: 
+    apisguru,
+    memoise,
+    nectar,
+    rlang,
+    stbl,
+    tibble,
+    tidyr
 Suggests: 
+    httptest2,
     testthat (>= 3.0.0)
+Remotes: 
+    jonthegeek/apisguru,
+    jonthegeek/nectar,
+    jonthegeek/stbl
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
